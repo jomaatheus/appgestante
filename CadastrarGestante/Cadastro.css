@@ -45,17 +45,6 @@ body {
 }
 
 
-
-.back-button,
-#cadastrarButton {
-    background-color: #e863a1;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
 .back-button,
 #cadastrarButton {
     background-color: #e863a1;
@@ -96,6 +85,12 @@ body {
 
     .back-button,
     #cadastrarButton {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .back-button,
+    #voltar {
         margin-right: 0;
         margin-bottom: 10px;
     }
