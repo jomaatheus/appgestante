@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Usuario.css">
+    <title>Seleção de Perfil</title>
+</head>
+<body>
+
+<div class="profile-selection-container">
+    <img src="../Fotos/277556264_468707131618780_4622556647008065310_n (1).png" alt="Descrição da imagem" style="width: 60px; height: auto;">
+    <p class="brand">GESTAR</p>
+    <h2 class="bemvindo">BEM-VINDO</h2>
+
+    <div class="profile-options">
+        <button onclick="selectProfile('gestante')">GESTANTE</button>
+    </div>
+    
+    <div class="profile-options">
+        <button onclick="goToGestantePage()">PROFISSIONAL</button>
+    </div>
+
+    <button onclick="goToLogin()" class="btn-back-to-login">Voltar para o Login</button>
+</div>
+
+<script>
+    function selectProfile(profile) {
+        // Aqui você pode realizar ações com base no perfil selecionado
+        console.log('Perfil selecionado:', profile);
+    }
+
+    function goToGestantePage() {
+        window.location.href = "../CadastrarGestante/Cadastro.html"; // Substitua "cadastro_gestante.html" pelo caminho real da sua página de cadastro de gestante
+    }
+
+    function goToLogin() {
+        window.location.href = "../index.html"; // Substitua "login.html" pelo caminho real da sua página de login
+    }
+</script>
+
+</body>
+</html>

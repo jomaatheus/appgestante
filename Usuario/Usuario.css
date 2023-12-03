@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.profile-selection-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.profile-options {
+    margin-bottom: none;
+}
+
+button {
+    background-color: #e863a1;
+    color: #fff;
+    padding: 10px 20px; /* Tamanho fixo para todos os botões */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 2px; /* Adiciona margem entre os botões */
+}
+
+/* Adicione essa regra para o botão "Voltar para o Login" */
+.profile-selection-container .btn-back-to-login {
+    margin-top: 50px; /* Adiciona margem superior para separar visualmente do botão anterior */
+}
+
+.profile-selection-container button:last-child {
+    width: 60%;
+
+}
+
+.brand {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0;
+    letter-spacing: 3px;
+}
+
+.bemvindo {
+    font-size: 40px;
+    margin: 60px 0; /* Ajuste o valor conforme necessário */
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Login/Login.css">
+    <title>Página de Login</title>
+</head>
+<body>
+
+<div class="login-container">
+    <img src="./Fotos/277556264_468707131618780_4622556647008065310_n (1).png" alt="Descrição da imagem" style="width: 60px; height: auto;">
+    <p class="brand">GESTAR</p>
+
+    <h2 class="bemvindo">BEM-VINDO</h2>
+
+    <p class="cabecalho">Faça login e continue</p>
+    <div class="form-group">
+        <input class="email" type="email" id="email" name="email" placeholder="EMAIL" required>
+    </div>
+
+    <div class="form-group">
+        <input class="senha" type="password" id="password" name="password" placeholder="SENHA" required>
+    </div>
+
+    <button type="button" onclick="redirect()">Entrar</button>
+
+    <div class="form-group">
+        <a class="forgot-password" href="#"><p> Esqueceu sua senha?</p></a>
+    </div>
+
+    <div class="form-group">
+        <p class="acesso">Ainda não tem uma conta? <a href="#" class="cadastro">Cadastre-se</a></p>
+    </div>
+</div>
+
+<script>
+    function redirect() {
+        window.location.href = "./Usuario/Usuario.html";
+    }
+</script>
+
+</body>
+</html>

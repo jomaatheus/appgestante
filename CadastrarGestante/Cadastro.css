@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.gestante-form-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+#gestanteForm {
+    text-align: left;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+}
+
+#gestanteForm label {
+    display: block;
+    margin-bottom: 0;
+    color: #e863a1;
+}
+
+#gestanteForm input {
+    border-radius: 20px;
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #e863a1;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+#button-container {
+    display: flex;
+    justify-content: center; /* Alterei de space-between para flex-end */
+    margin-top: 20px;
+}
+
+.back-button,
+#cadastrarButton {
+    background-color: #e863a1;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.back-button {
+    margin-right: 50px;
+}
+
+#cadastrarButton {
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .gestante-form-container {
+        max-width: 100%;
+    }
+
+    #button-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .back-button,
+    #cadastrarButton {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
