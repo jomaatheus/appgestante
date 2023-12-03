@@ -14,7 +14,7 @@
     <h2 class="bemvindo">BEM-VINDO</h2>
 
     <div class="profile-options">
-        <button onclick="selectProfile('gestante')">GESTANTE</button>
+        <button onclick="goToConsultaPage()">GESTANTE</button>
     </div>
     
     <div class="profile-options">
@@ -32,6 +32,10 @@
 
     function goToGestantePage() {
         window.location.href = "../CadastrarGestante/Cadastro.html"; // Substitua "cadastro_gestante.html" pelo caminho real da sua página de cadastro de gestante
+    }
+
+    function goToConsultaPage() {
+        window.location.href = "../Tela/Tela.html"; // Substitua "cadastro_gestante.html" pelo caminho real da sua página de cadastro de gestante
     }
 
     function goToLogin() {
