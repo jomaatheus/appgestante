@@ -44,14 +44,30 @@ body {
     margin-bottom: 10px;
 }
 
-#button-container {
-    display: flex;
-    justify-content: center; /* Alterei de space-between para flex-end */
-    margin-top: 20px;
+
+
+.back-button,
+#cadastrarButton {
+    background-color: #e863a1;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 .back-button,
 #cadastrarButton {
+    background-color: #e863a1;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.back-button,
+#voltar {
     background-color: #e863a1;
     color: #fff;
     padding: 10px 20px;
@@ -83,4 +99,22 @@ body {
         margin-right: 0;
         margin-bottom: 10px;
     }
+}
+
+.action-button {
+    background-color: rgb(199, 98, 230);
+    color: rgb(243, 243, 243);
+    padding: 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    width: 60%;
+    box-sizing: border-box;
+    border: none; /* Remover a borda */
+    font-weight: bold;
+    margin-top: 30px;
+}
+.action-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
 }
